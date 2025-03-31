@@ -12,6 +12,10 @@
   padding-right: 16px;
 }
 /* header */
+
+.header {
+  padding-top: 36px;
+}
 .header-link {
   color: var(--text-color);
   font-family: Montserrat;
@@ -37,6 +41,11 @@
 }
 
 /* section hero */
+
+.hero {
+  padding-top: 65px;
+  padding-bottom: 90px;
+}
 .hero-title {
   color: var(--text-color);
   font-family: "Montserrat Alternates";
@@ -72,6 +81,9 @@
 }
 
 /* Section About Us */
+ .about {
+  padding-top: 64px;
+ }
 .about-title {
   color: var(--text-color);
   text-align: center;
@@ -101,6 +113,9 @@
 }
 
 /*Program */
+.program {
+  padding-top: 100px;
+}
 
 .program-title {
   color: var(--text-color);
@@ -151,6 +166,10 @@
 }
 
 /* section-speakers */
+
+.speakers {
+  padding-top: 100px;
+}
 .speakers-title {
   color: var(--text-color);
   text-align: center;
@@ -179,4 +198,28 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.price {
+  padding-top: 100px;
+}
+
+
+.reviews {
+  padding-top: 100px;
+}
+
+
+.registration {
+  padding-top: 100px;
+}
+
+
+.contacts {
+  padding-top: 100px;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
