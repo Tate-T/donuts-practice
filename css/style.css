@@ -3,6 +3,14 @@
   --accent-color: #ffffff;
 }
 
+.container {
+  width: 1280px;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 /* header */
 .header-link {
   color: var(--text-color);
