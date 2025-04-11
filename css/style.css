@@ -120,9 +120,15 @@
 .about {
   padding-top: 64px;
 }
+.about-container {
+  display: flex;
+}
+.about-box {
+margin-left: 32px;
+}
 .about-title {
   color: var(--text-color);
-  text-align: center;
+  margin-bottom: 28px;
   font-family: "Montserrat Alternates";
   font-size: 32px;
   font-style: normal;
@@ -146,6 +152,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-top: 28px;
+  display: block;
 }
 
 /*Program */
