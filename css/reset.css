@@ -16,3 +16,9 @@ button {
     border: none;
     cursor: pointer;
 }
+
+img {
+display: block;
+width: 100%;
+max-width: 100%;
+}
