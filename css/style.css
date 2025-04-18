@@ -19,6 +19,8 @@
 
 .header-logo {
   margin-right: 55px;
+  width: 158px;
+
 }
 .header-link {
   color: var(--text-color);
@@ -259,6 +261,16 @@ margin-left: 32px;
   line-height: normal;
 }
 
+.speakers-list {
+  display: flex;
+  gap: 32px;
+  margin-top: 5px;
+}
+
+.speakers-item {
+  outline: solid green;
+}
+
 .speakers-subtitle {
   color: var(--text-color);
   text-align: center;
@@ -267,6 +279,8 @@ margin-left: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .speakers-text {
