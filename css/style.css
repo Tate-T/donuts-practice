@@ -20,7 +20,6 @@
 .header-logo {
   margin-right: 55px;
   width: 158px;
-
 }
 .header-link {
   color: var(--text-color);
@@ -96,7 +95,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: #F3848C;
+  background: #f3848c;
   padding-top: 8px;
   padding-bottom: 9px;
   width: 145px;
@@ -126,7 +125,7 @@
   display: flex;
 }
 .about-box {
-margin-left: 32px;
+  margin-left: 32px;
 }
 .about-title {
   color: var(--text-color);
@@ -162,11 +161,11 @@ margin-left: 32px;
 .program {
   padding-top: 100px;
 }
-.program-container{
- display: flex; 
+.program-container {
+  display: flex;
 }
 .program-box {
-  background-color: #F3848C;
+  background-color: #f3848c;
   max-width: 417px;
 }
 .program-list {
@@ -190,7 +189,7 @@ margin-left: 32px;
   column-gap: 138px;
 }
 
-.program-event{
+.program-event {
   max-width: 287px;
 }
 .program-photo {
@@ -295,6 +294,30 @@ margin-left: 32px;
 
 .price {
   padding-top: 100px;
+}
+
+.price-title {
+  margin-bottom: 27px;
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.price-list {
+  display: flex;
+}
+
+.price-item {
+  outline: solid green;
+}
+
+.price-photo {
+  width: 24px;
+height: 24px;
 }
 
 .reviews {
