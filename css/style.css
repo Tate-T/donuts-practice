@@ -356,6 +356,40 @@ height: 24px;
 
 .registration {
   padding-top: 100px;
+ 
+
+}
+.registration-box {
+ outline: rgb(17, 0, 255) solid;
+ background-image: url('../images/colorful-and-tasty-donuts.webp'), url('../images/registration.webp'), url('../images/topping-on-strawberry-donuts-and-white-donuts-selective-focus.webp');
+  background-repeat: no-repeat;
+  background-position: left, left, right;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.registration-title {
+  color: #2E2520;
+font-family: "Montserrat Alternates";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.registration-time {
+}
+.registration-subtitle {
+  margin-bottom: 24px;
+}
+.registration-form {
+  outline: green solid;
+}
+.registration-label {
+}
+.registration-input {
+}
+.registration-button {
 }
 
 .contacts {
