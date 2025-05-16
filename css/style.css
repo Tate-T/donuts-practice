@@ -292,6 +292,8 @@
   line-height: normal;
 }
 
+/* price */
+
 .price {
   padding-top: 100px;
 }
@@ -310,7 +312,7 @@
 }
 
 .price-button {
-  margin-top: 160px;
+  
   background-color: #f3848c;
   box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
 width: 145px;
@@ -351,6 +353,7 @@ line-height: normal;
   outline: solid green;
   background-image: url("../images/donats.webp");
   background-repeat: no-repeat;
+  background-position: 47px 297px;
 }
 
 .price-text {
