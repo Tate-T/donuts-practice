@@ -5,12 +5,12 @@
 
 .container {
   width: 1280px;
-  outline: solid red;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
 }
+
 /* header */
 
 .header {
@@ -21,6 +21,7 @@
   margin-right: 55px;
   width: 158px;
 }
+
 .header-link {
   color: var(--text-color);
   font-family: Montserrat;
@@ -42,11 +43,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: linear-gradient(
-    180deg,
-    rgba(248, 110, 103, 0.63) 0%,
-    rgba(253, 86, 143, 0.86) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(248, 110, 103, 0.63) 0%,
+      rgba(253, 86, 143, 0.86) 100%);
   box-shadow: 0px 7px 27px -2px rgba(253, 88, 140, 0.35);
 }
 
@@ -65,7 +64,11 @@
 .hero {
   padding-top: 65px;
   padding-bottom: 90px;
+  background-image: url("../images/backgroundhero.webp");
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 .hero-title {
   color: var(--text-color);
   font-family: "Montserrat Alternates";
@@ -103,11 +106,9 @@
 }
 
 .hero-button:hover {
-  background: linear-gradient(
-    180deg,
-    rgba(248, 110, 103, 0.63) 0%,
-    rgba(253, 86, 143, 0.86) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(248, 110, 103, 0.63) 0%,
+      rgba(253, 86, 143, 0.86) 100%);
   box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
 }
 
@@ -121,12 +122,15 @@
 .about {
   padding-top: 64px;
 }
+
 .about-container {
   display: flex;
 }
+
 .about-box {
   margin-left: 32px;
 }
+
 .about-title {
   color: var(--text-color);
   margin-bottom: 28px;
@@ -161,13 +165,15 @@
 .program {
   padding-top: 100px;
 }
+
 .program-container {
   display: flex;
 }
+
 .program-box {
-  background-color: #f3848c;
   max-width: 417px;
 }
+
 .program-list {
   display: flex;
   flex-direction: column;
@@ -178,10 +184,9 @@
 .program-item {
   display: flex;
   gap: 16px;
-  outline: solid green;
 }
+
 .program-events {
-  outline: solid yellow;
   margin-left: 119px;
   display: flex;
   flex-wrap: wrap;
@@ -192,6 +197,7 @@
 .program-event {
   max-width: 287px;
 }
+
 .program-photo {
   width: 24px;
 }
@@ -250,6 +256,7 @@
 .speakers {
   padding-top: 100px;
 }
+
 .speakers-title {
   color: var(--text-color);
   text-align: center;
@@ -266,9 +273,6 @@
   margin-top: 5px;
 }
 
-.speakers-item {
-  outline: solid green;
-}
 
 .speakers-subtitle {
   color: var(--text-color);
@@ -312,20 +316,20 @@
 }
 
 .price-button {
-  
+
   background-color: #f3848c;
   box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
-width: 145px;
-height: 40px;
-border-radius: 25px;
-margin-left: 125px;
-margin-bottom: 40px;
-color: #ffffff;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  width: 145px;
+  height: 40px;
+  border-radius: 25px;
+  margin-left: 125px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .price-photo {
@@ -338,55 +342,86 @@ line-height: normal;
   text-align: center;
   margin-bottom: 40px;
   font-family: "Montserrat Alternates";
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .price-list {
   display: flex;
   gap: 32px;
 }
+
 .price-item:hover {
   border-radius: 25px;
-border: 1px solid #F3848C;
+  border: 1px solid #F3848C;
 }
+
 .price-item {
-  
+
   background-image: url("../images/donats.webp");
   background-repeat: no-repeat;
   background-position: 47px 297px;
   display: flex;
   flex-direction: column;
-box-shadow: 10px 15px 25px 0px rgba(210, 201, 201, 0.45);
-min-height: 610px;
+  box-shadow: 10px 15px 25px 0px rgba(210, 201, 201, 0.45);
+  min-height: 610px;
 }
+
 .price-container {
- 
+
   flex-grow: 1;
 }
+
 .price-text {
   margin-left: 17px;
   margin-bottom: 16px;
 }
+
 .price-box {
   flex-grow: 1;
-  outline: solid blue;
 }
+
 .price-feater {
   display: flex;
 
-  
+
 }
 
 .price-photo {
   width: 24px;
-height: 24px;
+  height: 24px;
 }
 
+/* reviwes */
 .reviews {
   padding-top: 100px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  height: 600px;
+  align-items: flex-start;
+}
+
+.reviews-item:nth-child(2) {
+ align-self: flex-end;
+}
+
+.reviews-photo{
+  border-radius: 50%;
+}
+
+.reviews-rate {
+  margin-left: auto;
+  margin-right: auto;
+  width: 136px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-top: 8px;
 }
 
 .reviews-title {
@@ -397,6 +432,7 @@ height: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 22px;
 }
 
 .reviews-name {
@@ -407,9 +443,11 @@ height: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-top: 8px;
 }
 
 .reviews-text {
+  margin-top: 27px;
   color: var(--text-color);
   text-align: center;
   font-family: Montserrat;
@@ -417,16 +455,19 @@ height: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
 }
+
+/* registration */
 
 .registration {
   padding-top: 100px;
- 
+
 
 }
+
 .registration-box {
- outline: rgb(17, 0, 255) solid;
- background-image: url('../images/colorful-and-tasty-donuts.webp'), url('../images/registration.webp'), url('../images/topping-on-strawberry-donuts-and-white-donuts-selective-focus.webp');
+  background-image: url('../images/colorful-and-tasty-donuts.webp'), url('../images/registration.webp'), url('../images/topping-on-strawberry-donuts-and-white-donuts-selective-focus.webp');
   background-repeat: no-repeat;
   background-position: left, left, right;
   padding-top: 40px;
@@ -434,28 +475,28 @@ height: 24px;
   display: flex;
   justify-content: center;
 }
+
 .registration-title {
   color: #2E2520;
-font-family: "Montserrat Alternates";
-font-size: 32px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.registration-time {
-}
+
+.registration-time {}
+
 .registration-subtitle {
   margin-bottom: 24px;
 }
-.registration-form {
-  outline: green solid;
-}
-.registration-label {
-}
-.registration-input {
-}
-.registration-button {
-}
+
+
+.registration-label {}
+
+.registration-input {}
+
+.registration-button {}
 
 .contacts {
   padding-top: 100px;
