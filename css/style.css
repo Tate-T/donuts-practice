@@ -20,6 +20,7 @@
 .header-logo {
   margin-right: 55px;
   width: 158px;
+  height: 70px;
 }
 
 .header-link {
@@ -116,6 +117,11 @@
   margin-top: 32px;
   display: flex;
   gap: 16px;
+}
+
+.hero-link {
+  width: 16px;
+height: 16px;
 }
 
 /* Section About Us */
