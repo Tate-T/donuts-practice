@@ -2,7 +2,9 @@
   --text-color: #3c322d;
   --accent-color: #ffffff;
 }
-
+body {
+  font-family: "Montserrat"; 
+}
 .container {
   width: 1280px;
   margin-left: auto;
@@ -10,7 +12,11 @@
   padding-left: 16px;
   padding-right: 16px;
 }
-
+.background__container {
+  background-image: url("../images/backgroundhero.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* header */
 
 .header {
@@ -67,9 +73,7 @@
 .hero {
   padding-top: 65px;
   padding-bottom: 90px;
-  background-image: url("../images/backgroundhero.webp");
-  background-repeat: no-repeat;
-  background-position: center;
+ 
 }
 
 .hero-title {
@@ -95,26 +99,32 @@
 
 .hero-button {
   color: var(--accent-color);
+ 
+text-align: center;
+font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 25px;
+background: #F3848C;
+width: 145px;
+height: 40px;
+box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
+}
+
+.hero-button:hover {
+  color: #F3848C;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: #f3848c;
-  padding-top: 8px;
-  padding-bottom: 9px;
-  width: 145px;
   border-radius: 25px;
-}
+border: 1px solid #F3848C;
+background: #FFF;
 
-.hero-button:hover {
-  background: linear-gradient(
-    180deg,
-    rgba(248, 110, 103, 0.63) 0%,
-    rgba(253, 86, 143, 0.86) 100%
-  );
-  box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
 }
 
 .hero-list {
@@ -126,6 +136,9 @@
 .hero-link {
   width: 16px;
   height: 16px;
+}
+.hero-link:hover, .hero-link:focus {
+  fill: #F3848C;
 }
 
 /* Section About Us */
@@ -158,6 +171,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 25px;
 }
 
 .about-link {
@@ -298,6 +312,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 5px;
 }
 
 .speakers-list {
@@ -305,11 +320,15 @@
   gap: 32px;
   margin-top: 5px;
 }
-
+.speakers-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 .speakers-subtitle {
   color: var(--text-color);
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -321,11 +340,13 @@
 .speakers-text {
   color: var(--text-color);
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  width: 181px;
+
 }
 
 /* price */
@@ -333,7 +354,11 @@
 .price {
   padding-top: 100px;
 }
+.price-icons {
+  width: 24px;
+height: 24px;
 
+}
 .price-title {
   margin-bottom: 27px;
   color: var(--text-color);
@@ -355,7 +380,7 @@
   margin-left: 125px;
   margin-bottom: 40px;
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -367,7 +392,7 @@
 }
 
 .price-subtitle {
-  margin-top: 27px;
+  color: var(--text-color);
   text-align: center;
   margin-bottom: 40px;
   font-family: "Montserrat Alternates";
@@ -375,6 +400,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+
 }
 
 .price-list {
@@ -395,15 +421,25 @@
   flex-direction: column;
   box-shadow: 10px 15px 25px 0px rgba(210, 201, 201, 0.45);
   min-height: 610px;
+  padding-left: 10px;
+  padding-top: 28px;
+  border-radius: 25px;
+  padding-right: 6px;
 }
-
 .price-container {
   flex-grow: 1;
+  width: 380px;
 }
 
 .price-text {
-  margin-left: 17px;
+  color: var(--text-color);
   margin-bottom: 16px;
+  font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 339px;
 }
 
 .price-box {
@@ -412,6 +448,7 @@
 
 .price-feater {
   display: flex;
+  gap: 16px;
 }
 
 .price-photo {
@@ -423,7 +460,17 @@
 .reviews {
   padding-top: 100px;
 }
-
+.reviews-icons {
+  display: flex;
+}
+/* .reviews-list:nth-child(1) > .reviews-icons:n */
+.reviews-icon {
+}
+.reviews-svg {
+  width: 25px;
+  height: 25px;
+  fill: #EDD501;
+}
 .reviews-list {
   display: flex;
   gap: 32px;
@@ -431,23 +478,30 @@
   height: 600px;
   align-items: flex-start;
 }
-
+.reviews-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
 .reviews-item:nth-child(2) {
   align-self: flex-end;
 }
 
 .reviews-photo {
   border-radius: 50%;
+  width: 500px;
+/* height: 333px; */
 }
 
-.reviews-rate {
+/* .reviews-rate {
   margin-left: auto;
   margin-right: auto;
   width: 136px;
   height: 24px;
   flex-shrink: 0;
   margin-top: 8px;
-}
+} */
 
 .reviews-title {
   color: var(--text-color);
