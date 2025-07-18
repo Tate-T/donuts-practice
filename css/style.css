@@ -12,15 +12,19 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 }
-.background__container {
+/* .background__container {
   background-image: url("../images/backgroundhero.webp");
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 /* header */
 
 .header {
   padding-top: 36px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .header-logo {
@@ -71,9 +75,11 @@ body {
 /* section hero */
 
 .hero {
-  padding-top: 65px;
+  padding-top: 171px;
   padding-bottom: 90px;
- 
+  background-image: url("../images/backgroundhero.webp");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -148,6 +154,11 @@ background: #FFF;
 
 .about-container {
   display: flex;
+
+ background-image: url("../images/background/circle.webp");
+  background-position: 70% 45%;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
 }
 
 .about-box {
