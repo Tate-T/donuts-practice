@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Montserrat"; 
+  background: linear-gradient(182deg, #e5e2e3 0%, #fdfefe 30.6%, #e5e2e3 67.71%, #fdfefe 100%);
 }
 .container {
   width: 1280px;
