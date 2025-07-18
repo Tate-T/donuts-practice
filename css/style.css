@@ -200,6 +200,7 @@ background: #FFF;
 /*Program */
 .program {
   padding-top: 100px;
+  background-image: url(../images/background/program-backgraund.png);
 }
 
 .program-container {
@@ -233,6 +234,7 @@ background: #FFF;
 
 .program-event {
   max-width: 287px;
+  position: relative;
 }
 
 .program-photo {
@@ -279,6 +281,7 @@ background: #FFF;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 21px;
+
 }
 
 .program-descr {
@@ -298,16 +301,20 @@ background: #FFF;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  position: absolute;
+bottom: 68px;
+left: 0;
 }
 
 .program-info {
-  color: var(--accent-color);
+  color: var(--text-color);
   text-align: center;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+   position: absolute;
 }
 
 /* section-speakers */
