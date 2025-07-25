@@ -2,16 +2,16 @@
   --text-color: #3c322d;
   --accent-color: #ffffff;
 }
+
 body {
   font-family: "Montserrat";
-  background: linear-gradient(
-    182deg,
-    #e5e2e3 0%,
-    #fdfefe 30.6%,
-    #e5e2e3 67.71%,
-    #fdfefe 100%
-  );
+  background: linear-gradient(182deg,
+      #e5e2e3 0%,
+      #fdfefe 30.6%,
+      #e5e2e3 67.71%,
+      #fdfefe 100%);
 }
+
 .container {
   width: 1280px;
   margin-left: auto;
@@ -19,6 +19,7 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 /* .background__container {
   background-image: url("../images/backgroundhero.webp");
   background-repeat: no-repeat;
@@ -61,11 +62,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: linear-gradient(
-    180deg,
-    rgba(248, 110, 103, 0.63) 0%,
-    rgba(253, 86, 143, 0.86) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(248, 110, 103, 0.63) 0%,
+      rgba(253, 86, 143, 0.86) 100%);
   box-shadow: 0px 7px 27px -2px rgba(253, 88, 140, 0.35);
 }
 
@@ -149,6 +148,7 @@ body {
   width: 16px;
   height: 16px;
 }
+
 .hero-link:hover,
 .hero-link:focus {
   fill: #f3848c;
@@ -236,11 +236,15 @@ body {
   flex-wrap: wrap;
   row-gap: 40px;
   column-gap: 138px;
+
 }
 
 .program-event {
   max-width: 287px;
+  max-height: 289px;
   position: relative;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .program-photo {
@@ -267,6 +271,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.program-img {
+  width: 287px;
+  height: 289px;
 }
 
 .program-title {
@@ -298,6 +307,25 @@ body {
   line-height: normal;
 }
 
+.program-overlay {
+  background-color: rgba(243, 132, 140, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  opacity: 0;
+}
+
+.program-overlay:hover {
+  opacity: 1;
+}
+
 .program-subtitle {
   color: var(--accent-color);
   text-align: center;
@@ -306,21 +334,19 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  position: absolute;
-  bottom: 68px;
-  left: 0;
 }
 
 .program-info {
-  color: var(--text-color);
+  color: var(--accent-color);
   text-align: center;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  position: absolute;
 }
+
+
 
 /* section-speakers */
 
@@ -344,11 +370,13 @@ body {
   gap: 32px;
   margin-top: 5px;
 }
+
 .speakers-item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .speakers-subtitle {
   color: var(--text-color);
   text-align: center;
@@ -377,10 +405,12 @@ body {
 .price {
   padding-top: 100px;
 }
+
 .price-icons {
   width: 24px;
   height: 24px;
 }
+
 .price-title {
   margin-bottom: 27px;
   color: var(--text-color);
@@ -447,6 +477,7 @@ body {
   border-radius: 25px;
   padding-right: 6px;
 }
+
 .price-container {
   flex-grow: 1;
   width: 380px;
@@ -481,17 +512,20 @@ body {
 .reviews {
   padding-top: 100px;
 }
+
 .reviews-icons {
   display: flex;
 }
+
 /* .reviews-list:nth-child(1) > .reviews-icons:n */
-.reviews-icon {
-}
+.reviews-icon {}
+
 .reviews-svg {
   width: 25px;
   height: 25px;
   fill: #edd501;
 }
+
 .reviews-list {
   display: flex;
   gap: 32px;
@@ -499,12 +533,14 @@ body {
   height: 600px;
   align-items: flex-start;
 }
+
 .reviews-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
 }
+
 .reviews-item:nth-child(2) {
   align-self: flex-end;
 }
@@ -657,6 +693,70 @@ body {
 .contacts {
   padding-top: 100px;
 }
+
+.contacts-title {
+  color: #2E2520;
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.contacts-subtitle {
+  color: #2E2520;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: solid red;
+}
+
+.contacts-input {
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px solid #3C322D;
+}
+
+.contacts-button {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 9px;
+  padding-top: 8px;
+
+  border-radius: 25px;
+  background: #F3848C;
+  width: 145px;
+  flex-shrink: 0;
+}
+
+.contacts-img {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
 
 .footer {
   padding-top: 100px;
