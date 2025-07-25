@@ -721,7 +721,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  outline: solid red;
 }
 
 .contacts-input {
@@ -734,7 +733,13 @@ body {
   border-bottom: 1px solid #3C322D;
 }
 
+.contacts-question {
+  margin-top: 16px;
+}
+
+
 .contacts-button {
+  margin-top: 34px;
   color: #FFF;
   text-align: center;
   font-family: Montserrat;
@@ -749,6 +754,13 @@ body {
   background: #F3848C;
   width: 145px;
   flex-shrink: 0;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 37px;
 }
 
 .contacts-img {
