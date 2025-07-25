@@ -22,3 +22,9 @@ display: block;
 width: 100%;
 max-width: 100%;
 }
+
+input {
+  outline: none;
+  border: none;
+}
+
