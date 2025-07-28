@@ -29,10 +29,14 @@ body {
 
 .header {
   padding-top: 36px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  background-color: rgba(221, 160, 221, 0.5);
+backdrop-filter: blur(8px);
+z-index: 1;
+box-shadow: 0 2px 50px 10px;
 }
 
 .header-logo {
