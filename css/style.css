@@ -2,7 +2,9 @@
   --text-color: #3c322d;
   --accent-color: #ffffff;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Montserrat";
   background: linear-gradient(182deg,
@@ -87,6 +89,10 @@ display: block;
       rgba(248, 110, 103, 0.63) 0%,
       rgba(253, 86, 143, 0.86) 100%);
   box-shadow: 0px 7px 27px -2px rgba(253, 88, 140, 0.35);
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
 }
 
 .header-list {
