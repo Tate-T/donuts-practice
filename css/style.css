@@ -55,6 +55,7 @@ box-shadow: 0 2px 50px 10px;
   font-weight: 400;
   line-height: normal;
   position: relative;
+
 }
 
 .header-link::after {
@@ -62,15 +63,17 @@ box-shadow: 0 2px 50px 10px;
   width: 10px;
   height: 10px;
   background-color: #F3848C;
-  display: none;
+  opacity: 0;
   border-radius: 50%;
   position: absolute;
   bottom: -12px;
   left: 45%;
+    transition: opacity 1s 500ms  ;
 }
 
+
 .header-link:hover::after {
-display: block;
+opacity: 1;
 }
 
 .header-navigation {
@@ -146,21 +149,15 @@ display: block;
   font-weight: 400;
   line-height: normal;
   border-radius: 25px;
-  background: #f3848c;
+  background-color: #f3848c;
   width: 145px;
   height: 40px;
+  transition:  background-color 1s 500ms, color 1s 500ms, box-shadow 1s 500ms   ;
   box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
 }
 
 .hero-button:hover {
   color: #f3848c;
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border-radius: 25px;
   border: 1px solid #f3848c;
   background: #fff;
 }
@@ -174,6 +171,7 @@ display: block;
 .hero-link {
   width: 16px;
   height: 16px;
+  transition: fill 1s 300ms ;
 }
 
 .hero-link:hover,
@@ -347,6 +345,7 @@ display: block;
   flex-direction: column;
   gap: 16px;
   opacity: 0;
+  transition: opacity 1s 300ms ;
 }
 
 .program-overlay:hover {
@@ -485,12 +484,6 @@ display: block;
   display: flex;
   gap: 32px;
 }
-
-.price-item:hover {
-  border-radius: 25px;
-  border: 1px solid #f3848c;
-}
-
 .price-item {
   background-image: url("../images/donats.webp");
   background-repeat: no-repeat;
@@ -503,7 +496,15 @@ display: block;
   padding-top: 28px;
   border-radius: 25px;
   padding-right: 6px;
+  transition: border 1s 300ms, border-radius 1s 300ms;
 }
+
+.price-item:hover {
+  border-radius: 25px;
+  border: 1px solid #f3848c;
+}
+
+
 
 .price-container {
   flex-grow: 1;
