@@ -270,6 +270,7 @@ opacity: 1;
   position: relative;
   border-radius: 50%;
   overflow: hidden;
+ 
 }
 
 .program-photo {
@@ -344,12 +345,15 @@ opacity: 1;
   justify-content: center;
   flex-direction: column;
   gap: 16px;
-  opacity: 0;
-  transition: opacity 1s 300ms ;
+  /* opacity: 0; */
+  transition: opacity 1s 300ms, transform 1s 300ms ;
+ transform: translate(-300px, -300px);
+  border-radius: 50%;
 }
 
-.program-overlay:hover {
+.program-event:hover .program-overlay {
   opacity: 1;
+  transform: translate(0, 0);
 }
 
 .program-subtitle {
