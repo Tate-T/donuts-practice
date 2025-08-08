@@ -668,6 +668,13 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 250ms;
+}
+
+.price-button:hover {
+  transform: scale(1.2);
 }
 
 .price-photo {
@@ -696,18 +703,20 @@ body {
   background-position: 47px 297px;
   display: flex;
   flex-direction: column;
+  border-radius: 25px;
+  border: 1px solid #f3848c;
   box-shadow: 10px 15px 25px 0px rgba(210, 201, 201, 0.45);
   min-height: 610px;
   padding-left: 10px;
   padding-top: 28px;
   border-radius: 25px;
   padding-right: 6px;
-  transition: border 1s 300ms, border-radius 1s 300ms;
+  transition: box-shadow 1000ms ease-in-out;
 }
 
 .price-item:hover {
-  border-radius: 25px;
-  border: 1px solid #f3848c;
+  box-shadow: 10px 15px 25px 3px #f3848c;
+  transform: scale(1.01);
 }
 
 
