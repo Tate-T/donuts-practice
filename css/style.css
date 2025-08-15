@@ -34,7 +34,6 @@ html {
   transition-property: transform, opacity;
   transition-duration: 3000ms;
 }
-
 .is-hidden .modal {
   transform: scale(0.5) translate(0, 500px) rotate(300deg);
 
@@ -232,6 +231,7 @@ body {
 
 .header {
   padding-top: 36px;
+  padding-bottom: 26px;
   position: fixed;
   top: 0;
   left: 0;
