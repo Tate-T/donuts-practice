@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -279,9 +280,9 @@
   <!-- price -->
   <section class="price" id="price">
     <div class="container">
-      <h2 class="price-title">Price</h2>
+      <h2 data-aos="zoom-out-down" class="price-title">Price</h2>
       <ul class="price-list">
-        <li class="price-item">
+        <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="price-item ">
           <div class="price-container">
             <h3 class="price-subtitle">Easy start</h3>
             <ul class="price-featers">
@@ -317,7 +318,7 @@
           </div>
           <button type="button" class="price-button" data-modal-open>Register</button>
         </li>
-        <li class="price-item">
+        <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="price-item">
           <div class="price-container">
             <h3 class="price-subtitle">I want delicious donuts</h3>
             <ul class="price-featers">
@@ -367,7 +368,7 @@
           </div>
           <button type="button" class="price-button">Register</button>
         </li>
-        <li class="price-item">
+        <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="price-item">
           <div class="price-container">
             <h3 class="price-subtitle">Premium</h3>
             <ul class="price-featers">
@@ -672,6 +673,10 @@
     </div>
   </div>
   <script src="./modal.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
