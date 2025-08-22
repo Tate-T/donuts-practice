@@ -1,0 +1,144 @@
+.program {
+  padding-top: 100px;
+  background-image: url(../images/background/program-backgraund.png);
+}
+
+.program-container {
+  display: flex;
+}
+
+.program-box {
+  max-width: 417px;
+}
+
+.program-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 21px;
+}
+
+.program-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.program-events {
+  margin-left: 119px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 138px;
+}
+
+.program-event {
+  max-width: 287px;
+  max-height: 289px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.program-photo {
+  width: 15px;
+  height: 15px;
+}
+
+.program-line {
+  height: 40px;
+  width: 40px;
+  border: solid #f3848c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-decore {
+  flex-shrink: 0;
+  border: dashed #f3848c;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.program-img {
+  width: 287px;
+  height: 289px;
+}
+
+.program-title {
+  color: var(--text-color);
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.program-text {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 21px;
+}
+
+.program-descr {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.program-overlay {
+  background-color: rgba(243, 132, 140, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  /* opacity: 0; */
+  transition: opacity 1s 300ms, transform 1s 300ms;
+  transform: translate(-300px, -300px);
+  border-radius: 50%;
+}
+
+.program-event:hover .program-overlay {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.program-subtitle {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.program-info {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

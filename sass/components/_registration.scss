@@ -1,0 +1,94 @@
+.registration {
+  padding-top: 100px;
+}
+
+.registration-box {
+  background-image: url("../images/colorful-and-tasty-donuts.webp"),
+    url("../images/registration.webp"),
+    url("../images/topping-on-strawberry-donuts-and-white-donuts-selective-focus.webp");
+  background-repeat: no-repeat;
+  background-position: left, left, right;
+  background-color: var(--accent-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  /* outline: red solid 1px; */
+  height: 246px;
+}
+
+.registration-title {
+  color: #2e2520;
+  font-family: "Montserrat Alternates";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.registration-time {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  width: 127px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.registration-wrapper {
+  width: 267px;
+  border-left: 1px solid rgb(46, 37, 32);
+  padding-left: 28px;
+  margin-left: 28px;
+}
+
+.registration-subtitle {
+  margin-bottom: 24px;
+}
+
+.registration-list {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+
+.registration-label {
+  border-bottom: 1px solid rgb(46, 37, 32);
+  /* width: 268px; */
+}
+
+.registration-input {
+  border-bottom: 1px solid rgb(46, 37, 32);
+  color: rgba(46, 37, 32, 1);
+}
+
+.registration-input::placeholder {
+  color: rgba(46, 37, 32, 1);
+}
+
+.registration-button {
+  width: 145px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f3848c;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: auto;
+  margin-bottom: auto;
+}

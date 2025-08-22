@@ -1,0 +1,84 @@
+.reviews {
+  padding-top: 100px;
+}
+
+.reviews-icons {
+  display: flex;
+}
+
+/* .reviews-list:nth-child(1) > .reviews-icons:n */
+.reviews-icon {
+}
+
+.reviews-svg {
+  width: 25px;
+  height: 25px;
+  fill: #edd501;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  height: 600px;
+  align-items: flex-start;
+}
+
+.reviews-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.reviews-item:nth-child(2) {
+  align-self: flex-end;
+}
+
+.reviews-photo {
+  border-radius: 50%;
+  width: 500px;
+  /* height: 333px; */
+}
+
+/* .reviews-rate {
+  margin-left: auto;
+  margin-right: auto;
+  width: 136px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-top: 8px;
+} */
+
+.reviews-title {
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.reviews-name {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+.reviews-text {
+  margin-top: 27px;
+  color: var(--text-color);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

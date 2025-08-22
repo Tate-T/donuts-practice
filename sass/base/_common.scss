@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+  background: linear-gradient(
+    182deg,
+    #e5e2e3 0%,
+    #fdfefe 30.6%,
+    #e5e2e3 67.71%,
+    #fdfefe 100%
+  );
+}
+
+.container {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}

@@ -1,3 +1,16 @@
-h2{
-    color: antiquewhite;
-}
+@import "./base/reset";
+@import "./utills/vars";
+@import "./utills/keyframes";
+@import "./base/common";
+@import "./components/modal";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/about";
+@import "./components/program";
+@import "./components/speakers";
+@import "./components/price";
+@import "./components/reviews";
+@import "./components/registration";
+@import "./components/contacts";
+@import "./components/footer";
+@import "./components/scroll-top";

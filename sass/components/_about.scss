@@ -1,0 +1,47 @@
+.about {
+  padding-top: 64px;
+}
+
+.about-container {
+  display: flex;
+
+  background-image: url("../images/background/circle.webp");
+  background-position: 70% 45%;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
+
+.about-box {
+  margin-left: 32px;
+}
+
+.about-title {
+  color: var(--text-color);
+  margin-bottom: 28px;
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.about-text {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+.about-link {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 28px;
+  display: block;
+}

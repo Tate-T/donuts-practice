@@ -1,0 +1,32 @@
+@keyframes run__title {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: scale(1.01);
+        color: #f3848c;
+        text-shadow: 3px 10px 15px var(--text-color);
+    }
+
+    100% {
+        transform: translateX(500px);
+    }
+}
+
+@keyframes bit__button {
+    0% {
+        /* transform: scale(0); */
+    }
+
+    50% {
+        transform: scale(1.01);
+        box-shadow: #f3848c 2px 2px 30px 10px;
+        color: #f3848c;
+        background-color: white;
+    }
+
+    100% {
+        transform: scale(1.25);
+    }
+}

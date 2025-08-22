@@ -1,0 +1,115 @@
+.price {
+  padding-top: 100px;
+}
+
+.price-icons {
+  width: 24px;
+  height: 24px;
+}
+
+.price-title {
+  margin-bottom: 27px;
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 28px;
+}
+
+.price-button {
+  background-color: #f3848c;
+  box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
+  width: 145px;
+  height: 40px;
+  border-radius: 25px;
+  margin-left: 125px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 250ms;
+}
+
+.price-button:hover {
+  transform: scale(1.2);
+}
+
+.price-photo {
+  margin-left: 17px;
+}
+
+.price-subtitle {
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Montserrat Alternates";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.price-list {
+  display: flex;
+  gap: 32px;
+}
+
+.price-item {
+  background-image: url("../images/donats.webp");
+  background-repeat: no-repeat;
+  background-position: 47px 297px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  border: 1px solid #f3848c;
+  box-shadow: 10px 15px 25px 0px rgba(210, 201, 201, 0.45);
+  min-height: 610px;
+  padding-left: 10px;
+  padding-top: 28px;
+  border-radius: 25px;
+  padding-right: 6px;
+  transition: box-shadow 1000ms ease-in-out;
+}
+
+.price-item:hover {
+  box-shadow: 10px 15px 25px 3px #f3848c;
+  transform: scale(1.01);
+}
+
+.price-container {
+  flex-grow: 1;
+  width: 380px;
+}
+
+.price-text {
+  color: var(--text-color);
+  margin-bottom: 16px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 339px;
+}
+
+.price-box {
+  flex-grow: 1;
+}
+
+.price-feater {
+  display: flex;
+  gap: 16px;
+}
+
+.price-photo {
+  width: 24px;
+  height: 24px;
+}
