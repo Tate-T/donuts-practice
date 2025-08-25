@@ -48,7 +48,7 @@
 .program-line {
   height: 40px;
   width: 40px;
-  border: solid #f3848c;
+  border: solid $button-color;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@
 
 .program-decore {
   flex-shrink: 0;
-  border: dashed #f3848c;
+  border: dashed $button-color;
   border-radius: 50%;
   width: 28px;
   height: 28px;
@@ -72,7 +72,7 @@
 }
 
 .program-title {
-  color: var(--text-color);
+  color: $text-color;
   font-family: "Montserrat Alternates";
   font-size: 32px;
   font-style: normal;
@@ -82,7 +82,7 @@
 }
 
 .program-text {
-  color: var(--text-color);
+  color: $text-color;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -92,7 +92,7 @@
 }
 
 .program-descr {
-  color: var(--text-color);
+  color: $text-color;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -124,7 +124,7 @@
 }
 
 .program-subtitle {
-  color: var(--accent-color);
+  color: $accent-color;
   text-align: center;
   font-family: "Montserrat Alternates";
   font-size: 24px;
@@ -134,7 +134,7 @@
 }
 
 .program-info {
-  color: var(--accent-color);
+  color: $accent-color;
   text-align: center;
   font-family: Montserrat;
   font-size: 16px;

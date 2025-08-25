@@ -7,7 +7,7 @@
 }
 
 .hero-title {
-  color: var(--text-color);
+  color: $text-color;
   font-family: "Montserrat Alternates";
   font-size: 60px;
   font-style: normal;
@@ -23,7 +23,7 @@
 
 
 .hero-text {
-  color: var(--text-color);
+  color: $text-color;
   font-family: "Montserrat Alternates";
   font-size: 24px;
   font-style: normal;
@@ -33,7 +33,7 @@
 }
 
 .hero-button {
-  color: var(--accent-color);
+  color: $accent-color;
 
   text-align: center;
   font-family: "Montserrat";
@@ -42,7 +42,7 @@
   font-weight: 400;
   line-height: normal;
   border-radius: 25px;
-  background-color: #f3848c;
+  background-color: $button-color;
   width: 145px;
   height: 40px;
   transition: background-color 1s 500ms, color 1s 500ms, box-shadow 1s 500ms;
@@ -50,9 +50,9 @@
 }
 
 .hero-button:hover {
-  color: #f3848c;
-  border: 1px solid #f3848c;
-  background: #fff;
+  color: $button-color;
+  border: 1px solid $button-color;
+  background: $accent-color;
 }
 
 .hero-list {
@@ -69,5 +69,5 @@
 
 .hero-link:hover,
 .hero-link:focus {
-  fill: #f3848c;
+  fill: $button-color;
 }

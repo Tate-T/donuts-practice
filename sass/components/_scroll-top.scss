@@ -1,12 +1,12 @@
 .scroll-top {
   width: 100px;
   height: 100px;
-  background-color: #f3848c;
+  background-color: $button-color;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: $accent-color;
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -19,8 +19,8 @@
 
 
 .scroll-top:hover {
-  color: #f3848c;
-  background-color: white;
+  color: $button-color;
+  background-color: $accent-color;
   border-radius: 50%;
-  box-shadow: #f3848c 2px 2px 30px 10px;
+  box-shadow: $button-color 2px 2px 30px 10px;
 }

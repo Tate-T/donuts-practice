@@ -6,7 +6,7 @@
     50% {
         transform: scale(1.01);
         color: #f3848c;
-        text-shadow: 3px 10px 15px var(--text-color);
+        text-shadow: 3px 10px 15px $text-color;
     }
 
     100% {

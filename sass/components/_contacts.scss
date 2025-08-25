@@ -3,7 +3,7 @@
 }
 
 .contacts-title {
-  color: #2e2520;
+  color: $title-color;
   font-family: "Montserrat Alternates";
   font-size: 32px;
   font-style: normal;
@@ -14,7 +14,7 @@
 }
 
 .contacts-subtitle {
-  color: #2e2520;
+  color: $title-color;
   text-align: center;
   font-family: Montserrat;
   font-size: 18px;
@@ -38,7 +38,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border-bottom: 1px solid #3c322d;
+  border-bottom: 1px solid $text-color;
 }
 
 .contacts-question {
@@ -47,7 +47,7 @@
 
 .contacts-button {
   margin-top: 34px;
-  color: #fff;
+  color: $accent-color;
   text-align: center;
   font-family: Montserrat;
   font-size: 18px;
@@ -58,7 +58,7 @@
   padding-top: 8px;
 
   border-radius: 25px;
-  background: #f3848c;
+  background: $button-color;
   width: 145px;
   flex-shrink: 0;
 }

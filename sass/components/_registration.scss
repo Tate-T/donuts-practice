@@ -8,7 +8,7 @@
     url("../images/topping-on-strawberry-donuts-and-white-donuts-selective-focus.webp");
   background-repeat: no-repeat;
   background-position: left, left, right;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
@@ -19,7 +19,7 @@
 }
 
 .registration-title {
-  color: #2e2520;
+  color: $title-color;
   font-family: "Montserrat Alternates";
   font-size: 20px;
   font-style: normal;
@@ -81,8 +81,8 @@
   width: 145px;
   height: 40px;
   border-radius: 20px;
-  background-color: #f3848c;
-  color: #fff;
+  background-color: $button-color;
+  color: $accent-color;
   text-align: center;
   font-family: Montserrat;
   font-size: 18px;

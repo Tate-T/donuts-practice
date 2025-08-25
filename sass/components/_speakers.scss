@@ -3,7 +3,7 @@
 }
 
 .speakers-title {
-  color: var(--text-color);
+  color: $text-color;
   text-align: center;
   font-family: "Montserrat Alternates";
   font-size: 32px;
@@ -26,7 +26,7 @@
 }
 
 .speakers-subtitle {
-  color: var(--text-color);
+  color: $text-color;
   text-align: center;
   font-family: "Montserrat";
   font-size: 18px;
@@ -38,7 +38,7 @@
 }
 
 .speakers-text {
-  color: var(--text-color);
+  color: $text-color;
   text-align: center;
   font-family: "Montserrat";
   font-size: 16px;

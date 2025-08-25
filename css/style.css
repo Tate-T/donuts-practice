@@ -33,11 +33,6 @@ input {
   border: none;
 }
 
-:root {
-  --text-color: #3c322d;
-  --accent-color: #ffffff;
-}
-
 @-webkit-keyframes run__title {
   0% {
     -webkit-transform: translateX(0px);
@@ -47,7 +42,7 @@ input {
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
     color: #f3848c;
-    text-shadow: 3px 10px 15px var(--text-color);
+    text-shadow: 3px 10px 15px #3c322d;
   }
   100% {
     -webkit-transform: translateX(500px);
@@ -64,7 +59,7 @@ input {
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
     color: #f3848c;
-    text-shadow: 3px 10px 15px var(--text-color);
+    text-shadow: 3px 10px 15px #3c322d;
   }
   100% {
     -webkit-transform: translateX(500px);
@@ -153,7 +148,7 @@ body {
           transform: scale(1) translate(0, 0) rotate(0deg);
   width: 528px;
   border-radius: 4px;
-  background: #fff;
+  background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   padding: 14px 40px 40px 40px;
@@ -305,7 +300,6 @@ body {
   border-radius: 4px;
   fill: #212121;
   margin-left: 7px;
-  color: #757575;
   font-family: "Roboto";
   font-size: 14px;
   font-style: normal;
@@ -338,7 +332,7 @@ body {
   background: #f3848c;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-family: "Roboto";
   font-size: 16px;
@@ -374,7 +368,7 @@ body {
 }
 
 .header-link {
-  color: var(--text-color);
+  color: #3c322d;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -450,7 +444,7 @@ body {
 }
 
 .hero-title {
-  color: var(--text-color);
+  color: #3c322d;
   font-family: "Montserrat Alternates";
   font-size: 60px;
   font-style: normal;
@@ -469,7 +463,7 @@ body {
 }
 
 .hero-text {
-  color: var(--text-color);
+  color: #3c322d;
   font-family: "Montserrat Alternates";
   font-size: 24px;
   font-style: normal;
@@ -479,7 +473,7 @@ body {
 }
 
 .hero-button {
-  color: var(--accent-color);
+  color: #ffffff;
   text-align: center;
   font-family: "Montserrat";
   font-size: 18px;
@@ -501,7 +495,7 @@ body {
 .hero-button:hover {
   color: #f3848c;
   border: 1px solid #f3848c;
-  background: #fff;
+  background: #ffffff;
 }
 
 .hero-list {
@@ -543,7 +537,7 @@ body {
 }
 
 .about-title {
-  color: var(--text-color);
+  color: #3c322d;
   margin-bottom: 28px;
   font-family: "Montserrat Alternates";
   font-size: 32px;
@@ -553,7 +547,7 @@ body {
 }
 
 .about-text {
-  color: var(--text-color);
+  color: #3c322d;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -563,7 +557,7 @@ body {
 }
 
 .about-link {
-  color: var(--text-color);
+  color: #3c322d;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -675,7 +669,7 @@ body {
 }
 
 .program-title {
-  color: var(--text-color);
+  color: #3c322d;
   font-family: "Montserrat Alternates";
   font-size: 32px;
   font-style: normal;
@@ -685,7 +679,7 @@ body {
 }
 
 .program-text {
-  color: var(--text-color);
+  color: #3c322d;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -695,7 +689,7 @@ body {
 }
 
 .program-descr {
-  color: var(--text-color);
+  color: #3c322d;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -741,7 +735,7 @@ body {
 }
 
 .program-subtitle {
-  color: var(--accent-color);
+  color: #ffffff;
   text-align: center;
   font-family: "Montserrat Alternates";
   font-size: 24px;
@@ -751,7 +745,7 @@ body {
 }
 
 .program-info {
-  color: var(--accent-color);
+  color: #ffffff;
   text-align: center;
   font-family: Montserrat;
   font-size: 16px;
@@ -765,7 +759,7 @@ body {
 }
 
 .speakers-title {
-  color: var(--text-color);
+  color: #3c322d;
   text-align: center;
   font-family: "Montserrat Alternates";
   font-size: 32px;
@@ -797,7 +791,7 @@ body {
 }
 
 .speakers-subtitle {
-  color: var(--text-color);
+  color: #3c322d;
   text-align: center;
   font-family: "Montserrat";
   font-size: 18px;
@@ -809,7 +803,7 @@ body {
 }
 
 .speakers-text {
-  color: var(--text-color);
+  color: #3c322d;
   text-align: center;
   font-family: "Montserrat";
   font-size: 16px;
@@ -830,7 +824,7 @@ body {
 
 .price-title {
   margin-bottom: 27px;
-  color: var(--text-color);
+  color: #3c322d;
   text-align: center;
   font-family: "Montserrat Alternates";
   font-size: 32px;
@@ -875,7 +869,7 @@ body {
 }
 
 .price-subtitle {
-  color: var(--text-color);
+  color: #3c322d;
   text-align: center;
   margin-bottom: 40px;
   font-family: "Montserrat Alternates";
@@ -933,7 +927,7 @@ body {
 }
 
 .price-text {
-  color: var(--text-color);
+  color: #3c322d;
   margin-bottom: 16px;
   font-family: "Montserrat";
   font-size: 18px;
@@ -1026,7 +1020,7 @@ body {
   margin-top: 8px;
 } */
 .reviews-title {
-  color: var(--text-color);
+  color: #3c322d;
   text-align: center;
   font-family: "Montserrat Alternates";
   font-size: 32px;
@@ -1037,7 +1031,7 @@ body {
 }
 
 .reviews-name {
-  color: var(--text-color);
+  color: #3c322d;
   text-align: center;
   font-family: Montserrat;
   font-size: 16px;
@@ -1049,7 +1043,7 @@ body {
 
 .reviews-text {
   margin-top: 27px;
-  color: var(--text-color);
+  color: #3c322d;
   text-align: center;
   font-family: Montserrat;
   font-size: 18px;
@@ -1066,7 +1060,7 @@ body {
   background-image: url("../images/colorful-and-tasty-donuts.webp"), url("../images/registration.webp"), url("../images/topping-on-strawberry-donuts-and-white-donuts-selective-focus.webp");
   background-repeat: no-repeat;
   background-position: left, left, right;
-  background-color: var(--accent-color);
+  background-color: #ffffff;
   padding-top: 40px;
   padding-bottom: 40px;
   display: -webkit-box;
@@ -1166,7 +1160,7 @@ body {
   height: 40px;
   border-radius: 20px;
   background-color: #f3848c;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-family: Montserrat;
   font-size: 18px;
@@ -1235,7 +1229,7 @@ body {
 
 .contacts-button {
   margin-top: 34px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-family: Montserrat;
   font-size: 18px;
@@ -1288,7 +1282,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: white;
+  color: #ffffff;
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -1306,7 +1300,7 @@ body {
 
 .scroll-top:hover {
   color: #f3848c;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 50%;
   -webkit-box-shadow: #f3848c 2px 2px 30px 10px;
           box-shadow: #f3848c 2px 2px 30px 10px;
