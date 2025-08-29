@@ -4,70 +4,73 @@
   background-image: url("../images/backgroundhero.webp");
   background-repeat: no-repeat;
   background-position: center;
-}
 
-.hero-title {
-  color: $text-color;
-  font-family: "Montserrat Alternates";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 65px;
-  max-width: 757px;
-  margin-bottom: 20px;
-  animation-name: run__title;
-  animation-duration: 4000ms;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
+  &__title {
+    color: $text-color;
+    font-family: "Montserrat Alternates";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+    max-width: 757px;
+    margin-bottom: 20px;
+    animation-name: run__title;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  &__text {
+    color: $text-color;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 28px;
+  }
+
+  &__button {
+    color: $accent-color;
+
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 25px;
+    background-color: $button-color;
+    width: 145px;
+    height: 40px;
+    transition: background-color 1s 500ms, color 1s 500ms, box-shadow 1s 500ms;
+    box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
+
+    &:hover {
+      color: $button-color;
+      border: 1px solid $button-color;
+      background: $accent-color;
+    }
+
+  }
+
+  &__list {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+  }
+
+  &__link {
+    width: 16px;
+    height: 16px;
+    transition: fill 1s 300ms;
+
+    &:hover,
+    &:focus {
+      fill: $button-color;
+    }
+  }
 
 
-.hero-text {
-  color: $text-color;
-  font-family: "Montserrat Alternates";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-bottom: 28px;
-}
 
-.hero-button {
-  color: $accent-color;
-
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border-radius: 25px;
-  background-color: $button-color;
-  width: 145px;
-  height: 40px;
-  transition: background-color 1s 500ms, color 1s 500ms, box-shadow 1s 500ms;
-  box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
-}
-
-.hero-button:hover {
-  color: $button-color;
-  border: 1px solid $button-color;
-  background: $accent-color;
-}
-
-.hero-list {
-  margin-top: 32px;
-  display: flex;
-  gap: 16px;
-}
-
-.hero-link {
-  width: 16px;
-  height: 16px;
-  transition: fill 1s 300ms;
-}
-
-.hero-link:hover,
-.hero-link:focus {
-  fill: $button-color;
 }
