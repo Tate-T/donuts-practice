@@ -1,77 +1,72 @@
 .contacts {
   padding-top: 100px;
-}
 
-.contacts-title {
-  color: $title-color;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-align: center;
-  margin-bottom: 27px;
-}
+  &__title {
+    color: $title-color;
+    font-family: "Montserrat Alternates";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+  &__subtitle {
+    color: $title-color;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__input {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid $text-color;
+  }
+  &__question {
+    margin-top: 16px;
+  }
+  &__button {
+    margin-top: 34px;
+    color: $accent-color;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 9px;
+    padding-top: 8px;
 
-.contacts-subtitle {
-  color: $title-color;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 16px;
-}
-
-.contacts-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.contacts-input {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border-bottom: 1px solid $text-color;
-}
-
-.contacts-question {
-  margin-top: 16px;
-}
-
-.contacts-button {
-  margin-top: 34px;
-  color: $accent-color;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-bottom: 9px;
-  padding-top: 8px;
-
-  border-radius: 25px;
-  background: $button-color;
-  width: 145px;
-  flex-shrink: 0;
-}
-
-.contacts-list {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 37px;
-}
-
-.contacts-img {
+    border-radius: 25px;
+    background: $button-color;
+    width: 145px;
+    flex-shrink: 0;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 37px;
+  }
+  &__img {
   width: 16px;
   height: 16px;
   flex-shrink: 0;
 }
+}
+
+
