@@ -40,19 +40,11 @@
     margin-top: 16px;
   }
   &__button {
+    @extend %buttons;
     margin-top: 34px;
-    color: $accent-color;
     text-align: center;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding-bottom: 9px;
     padding-top: 8px;
-
-    border-radius: 25px;
-    background: $button-color;
     width: 145px;
     flex-shrink: 0;
   }
@@ -63,10 +55,8 @@
     margin-top: 37px;
   }
   &__img {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
 }
-}
-
-

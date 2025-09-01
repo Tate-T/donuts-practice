@@ -20,19 +20,12 @@
 }
 
 .price-button {
-  background-color: $button-color;
+  @extend %buttons;
   box-shadow: 10px 15px 25px 0px rgba(232, 183, 183, 0.45);
   width: 145px;
   height: 40px;
-  border-radius: 25px;
   margin-left: 125px;
   margin-bottom: 40px;
-  color: $accent-color;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   transform: scale(1);
   transition-property: transform;
   transition-duration: 250ms;

@@ -31,16 +31,8 @@
   }
 
   &__button {
-    color: $accent-color;
-
+    @extend %buttons;
     text-align: center;
-    font-family: "Montserrat";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-radius: 25px;
-    background-color: $button-color;
     width: 145px;
     height: 40px;
     transition: background-color 1s 500ms, color 1s 500ms, box-shadow 1s 500ms;
