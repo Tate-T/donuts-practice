@@ -72,12 +72,7 @@
 }
 
 .program-title {
-  color: $text-color;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  @extend %title-section;
   margin-bottom: 24px;
 }
 

@@ -32,6 +32,23 @@ input {
   border: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+  background: linear-gradient(182deg, #e5e2e3 0%, #fdfefe 30.6%, #e5e2e3 67.71%, #fdfefe 100%);
+}
+
+.container {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 @keyframes run__title {
   0% {
     transform: translateX(0px);
@@ -70,21 +87,22 @@ input {
   line-height: normal;
 }
 
-html {
-  scroll-behavior: smooth;
+.contacts__title, .registration-title, .reviews-title, .price-title, .program-title, .about__title {
+  color: #3c322d;
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-body {
-  font-family: "Montserrat";
-  background: linear-gradient(182deg, #e5e2e3 0%, #fdfefe 30.6%, #e5e2e3 67.71%, #fdfefe 100%);
-}
-
-.container {
-  width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+.about__text {
+  color: #3c322d;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .backdrop {
@@ -412,21 +430,9 @@ body {
   margin-left: 32px;
 }
 .about__title {
-  color: #3c322d;
   margin-bottom: 28px;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
 .about__text {
-  color: #3c322d;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-bottom: 25px;
 }
 .about__link {
@@ -522,12 +528,6 @@ body {
 }
 
 .program-title {
-  color: #3c322d;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   margin-bottom: 24px;
 }
 
@@ -598,13 +598,7 @@ body {
 }
 
 .speakers-title {
-  color: #3c322d;
   text-align: center;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   margin-bottom: 5px;
 }
 
@@ -654,13 +648,7 @@ body {
 
 .price-title {
   margin-bottom: 27px;
-  color: #3c322d;
   text-align: center;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   margin-top: 28px;
 }
 
@@ -800,13 +788,7 @@ body {
   margin-top: 8px;
 } */
 .reviews-title {
-  color: #3c322d;
   text-align: center;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   margin-bottom: 22px;
 }
 
@@ -851,12 +833,6 @@ body {
 }
 
 .registration-title {
-  color: #2e2520;
-  font-family: "Montserrat Alternates";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   text-align: center;
   margin-bottom: 28px;
 }
@@ -925,12 +901,6 @@ body {
   padding-top: 100px;
 }
 .contacts__title {
-  color: #2e2520;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   text-align: center;
   margin-bottom: 27px;
 }

@@ -8,3 +8,21 @@
   font-weight: 400;
   line-height: normal;
 }
+
+%title-section {
+  color: $text-color;
+  font-family: "Montserrat Alternates";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+%text {
+  color: $text-color;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

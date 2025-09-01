@@ -19,12 +19,7 @@
 }
 
 .registration-title {
-  color: $title-color;
-  font-family: "Montserrat Alternates";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  @extend %title-section;
   text-align: center;
   margin-bottom: 28px;
 }

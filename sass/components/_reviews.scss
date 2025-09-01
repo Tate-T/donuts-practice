@@ -51,13 +51,8 @@
 } */
 
 .reviews-title {
-  color: $text-color;
+  @extend %title-section;
   text-align: center;
-  font-family: "Montserrat Alternates";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   margin-bottom: 22px;
 }
 
