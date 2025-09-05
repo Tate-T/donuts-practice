@@ -10,9 +10,15 @@
   margin-bottom: 28px;
 }
 
+&__photo {
+width: 608px;
+height: 381px;
+}
+
 &__text {
   @extend %text;
   margin-bottom: 25px;
+  max-width: 608px;
 }
 
 &__link {
@@ -26,7 +32,7 @@
   display: block;
 }
 &__container {
-  display: flex;
+@include flex-position();
 
   background-image: url("../images/background/circle.webp");
   background-position: 70% 45%;
