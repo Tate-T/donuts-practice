@@ -1,18 +1,22 @@
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
+
   &__container {
-    display: flex;
-    gap: 1046px;
+    // display: flex;
+    // gap: 1046px;
+    @include flex-position($space: 1046px);
   }
+
   &__text {
     color: $title-color;
     font-weight: 400px;
     font-family: Montserrat;
     font-size: 16px;
   }
+
   &__subtitle {
-    
+
     color: $title-color;
     font-weight: 400px;
     font-family: Montserrat;
