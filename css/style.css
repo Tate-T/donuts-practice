@@ -43,11 +43,26 @@ body {
 }
 
 .container {
-  width: 1280px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: solid red;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 736px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
 }
 
 @-webkit-keyframes run__title {
