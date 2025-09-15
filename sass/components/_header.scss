@@ -1,6 +1,6 @@
 .header {
-  padding-top: 36px;
-  padding-bottom: 26px;
+  padding-top: 16px;
+  padding-bottom: 6px;
   position: fixed;
   top: 0;
   left: 0;
@@ -9,6 +9,17 @@
   backdrop-filter: blur(8px);
   z-index: 1;
   box-shadow: 0 2px 50px 10px;
+
+  @media screen and (min-width: 768px) {
+padding-top: 24px;
+padding-bottom: 15px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 36px;
+  padding-bottom: 26px;
+  }
+
 
   &__container {
     display: flex;
@@ -21,8 +32,13 @@
   }
 
   &__navigation {
-    display: flex;
+    display: none;
     align-items: center;
+   
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+
   }
 
   &__list {
@@ -74,6 +90,17 @@
     padding-bottom: 4px;
     padding-top: 4px;
   }
+  &__burger {
+    background-color: transparent;
+    margin-left: auto;
+   @media screen and (min-width: 1280px) {
+   display: none;
+  }
 
+}
+&__svg {
+  width: 30px;
+height: 16px
+}
 
 }
