@@ -1,33 +1,64 @@
 .hero {
-  padding-top: 171px;
-  padding-bottom: 90px;
+  padding-top: 86px;
+  padding-bottom: 8px;
   background-image: url("../images/backgroundhero.webp");
   background-repeat: no-repeat;
   background-position: center;
 
+  @media screen and (min-width: 768px) {
+    padding-top: 98px;
+    padding-bottom: 43px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 171px;
+    padding-bottom: 90px;
+  }
+
+  &__container {
+    overflow: hidden;
+  }
+
   &__title {
     color: $text-color;
     font-family: "Montserrat Alternates";
-    font-size: 60px;
-    font-style: normal;
+    font-size: 28px;
     font-weight: 600;
     line-height: 65px;
-    max-width: 757px;
-    margin-bottom: 20px;
+    letter-spacing: -0.03em;
+    max-width: 280px;
+    margin-bottom: 18px;
     animation-name: run__title;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+
+    @media screen and (min-width: 768px) {
+      font-size: 30px;
+      max-width: 319px;
+      margin-bottom: 9px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      font-size: 60px;
+      line-height: 108%;
+      max-width: 757px;
+      margin-bottom: 20px;
+    }
   }
 
   &__text {
     color: $text-color;
     font-family: "Montserrat Alternates";
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-bottom: 28px;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 24px;
+    }
   }
 
   &__button {
@@ -43,7 +74,6 @@
       border: 1px solid $button-color;
       background: $accent-color;
     }
-
   }
 
   &__list {
@@ -62,7 +92,4 @@
       fill: $button-color;
     }
   }
-
-
-
 }
