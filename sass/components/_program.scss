@@ -1,39 +1,40 @@
 .program {
- 
+ padding-top: 28px;
   background-image: url(../images/background/program-backgraund.png);
 
-}
-
-.program-container {
+  &__container {
   display: flex;
+  flex-direction: column;
 }
 
-.program-box {
+&__box {
   max-width: 417px;
 }
 
-.program-list {
+&__list {
   display: flex;
   flex-direction: column;
   gap: 18px;
   margin-bottom: 21px;
 }
 
-.program-item {
+&__item {
   display: flex;
   gap: 16px;
   align-items: center;
 }
 
-.program-events {
-  margin-left: 119px;
+&__events {
+ 
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  row-gap: 40px;
-  column-gap: 138px;
+  row-gap: 28px;
+  column-gap: 23px;
 }
 
-.program-event {
+&__event {
   max-width: 287px;
   max-height: 289px;
   position: relative;
@@ -41,12 +42,12 @@
   overflow: hidden;
 }
 
-.program-photo {
+&__photo {
   width: 15px;
   height: 15px;
 }
 
-.program-line {
+&__line {
   height: 40px;
   width: 40px;
   border: solid $button-color;
@@ -56,7 +57,7 @@
   align-items: center;
 }
 
-.program-decore {
+&__decore {
   flex-shrink: 0;
   border: dashed $button-color;
   border-radius: 50%;
@@ -67,36 +68,36 @@
   justify-content: center;
 }
 
-.program-img {
-  width: 287px;
-  height: 289px;
+&__img {
+  width: 130px;
+height: 130px;
 }
 
-.program-title {
+&__title {
   @extend %title-section;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
-.program-text {
+&__text {
   color: $text-color;
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 21px;
 }
 
-.program-descr {
+&__descr {
   color: $text-color;
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-.program-overlay {
+&__overlay {
   background-color: rgba(243, 132, 140, 0.5);
   position: absolute;
   bottom: 0;
@@ -114,37 +115,76 @@
   border-radius: 50%;
 }
 
-.program-event:hover .program-overlay {
+&__event:hover &__overlay {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.program-subtitle {
+&__subtitle {
   color: $accent-color;
   text-align: center;
   font-family: "Montserrat Alternates";
-  font-size: 24px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 
-.program-info {
+&__info {
   color: $accent-color;
   text-align: center;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
+}
+
+
 @media screen and (min-width: 768px) {
   .program {
-
+padding-top: 80px;
+&__title {
+margin-bottom: 28px;
+}
   }
 }
 @media screen and (min-width: 1200px) {
   .program {
      padding-top: 100px;
+     &__container {
+       flex-direction: none;
+     }
+&__title {
+margin-bottom: 24px;
+}
+     &__events {
+  margin-left: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 138px;
+}
+&__text { 
+font-size: 18px;
+}
+&__descr {
+  font-size: 18px;
+}
+&__img {
+  width: 287px;
+  height: 289px;
+}
+&__subtitle {
+   font-size: 24px;
+}
+&__info {
+    font-size: 16px;
+}
+
   }
+
 }

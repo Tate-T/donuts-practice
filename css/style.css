@@ -101,7 +101,7 @@ body {
   line-height: normal;
 }
 
-.contacts__title, .registration-title, .reviews-title, .price-title, .program-title, .about__title {
+.contacts__title, .registration-title, .reviews-title, .price-title, .program__title, .about__title {
   color: #3c322d;
   font-family: "Montserrat Alternates";
   font-size: 24px;
@@ -110,7 +110,7 @@ body {
   line-height: normal;
 }
 @media screen and (min-width: 768px) {
-  .contacts__title, .registration-title, .reviews-title, .price-title, .program-title, .about__title {
+  .contacts__title, .registration-title, .reviews-title, .price-title, .program__title, .about__title {
     font-size: 32px;
   }
 }
@@ -621,53 +621,48 @@ body {
 }
 
 .program {
+  padding-top: 28px;
   background-image: url(../images/background/program-backgraund.png);
 }
-
-.program-container {
+.program__container {
   display: flex;
+  flex-direction: column;
 }
-
-.program-box {
+.program__box {
   max-width: 417px;
 }
-
-.program-list {
+.program__list {
   display: flex;
   flex-direction: column;
   gap: 18px;
   margin-bottom: 21px;
 }
-
-.program-item {
+.program__item {
   display: flex;
   gap: 16px;
   align-items: center;
 }
-
-.program-events {
-  margin-left: 119px;
+.program__events {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  row-gap: 40px;
-  -moz-column-gap: 138px;
-       column-gap: 138px;
+  row-gap: 28px;
+  -moz-column-gap: 23px;
+       column-gap: 23px;
 }
-
-.program-event {
+.program__event {
   max-width: 287px;
   max-height: 289px;
   position: relative;
   border-radius: 50%;
   overflow: hidden;
 }
-
-.program-photo {
+.program__photo {
   width: 15px;
   height: 15px;
 }
-
-.program-line {
+.program__line {
   height: 40px;
   width: 40px;
   border: solid #f3848c;
@@ -676,8 +671,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.program-decore {
+.program__decore {
   flex-shrink: 0;
   border: dashed #f3848c;
   border-radius: 50%;
@@ -687,36 +681,31 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-.program-img {
-  width: 287px;
-  height: 289px;
+.program__img {
+  width: 130px;
+  height: 130px;
 }
-
-.program-title {
-  margin-bottom: 24px;
+.program__title {
+  margin-bottom: 8px;
 }
-
-.program-text {
+.program__text {
   color: #3c322d;
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 21px;
 }
-
-.program-descr {
+.program__descr {
   color: #3c322d;
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
-.program-overlay {
+.program__overlay {
   background-color: rgba(243, 132, 140, 0.5);
   position: absolute;
   bottom: 0;
@@ -733,35 +722,72 @@ body {
   transform: translate(-300px, -300px);
   border-radius: 50%;
 }
-
-.program-event:hover .program-overlay {
+.program__event:hover .program__overlay {
   opacity: 1;
   transform: translate(0, 0);
 }
-
-.program-subtitle {
+.program__subtitle {
   color: #ffffff;
   text-align: center;
   font-family: "Montserrat Alternates";
-  font-size: 24px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-
-.program-info {
+.program__info {
   color: #ffffff;
   text-align: center;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
+@media screen and (min-width: 768px) {
+  .program {
+    padding-top: 80px;
+  }
+  .program__title {
+    margin-bottom: 28px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .program {
     padding-top: 100px;
+  }
+  .program__container {
+    flex-direction: none;
+  }
+  .program__title {
+    margin-bottom: 24px;
+  }
+  .program__events {
+    margin-left: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    -moz-column-gap: 138px;
+         column-gap: 138px;
+  }
+  .program__text {
+    font-size: 18px;
+  }
+  .program__descr {
+    font-size: 18px;
+  }
+  .program__img {
+    width: 287px;
+    height: 289px;
+  }
+  .program__subtitle {
+    font-size: 24px;
+  }
+  .program__info {
+    font-size: 16px;
   }
 }
 .speakers {
