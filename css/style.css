@@ -536,6 +536,7 @@ body {
 @media screen and (min-width: 1280px) {
   .about__box {
     padding-top: 64px;
+    max-width: 608px;
   }
 }
 .about__title {
@@ -569,7 +570,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .about__photo {
-    width: 608px;
+    max-width: 608px;
     height: 381px;
   }
 }
@@ -620,7 +621,6 @@ body {
 }
 
 .program {
-  padding-top: 100px;
   background-image: url(../images/background/program-backgraund.png);
 }
 
@@ -759,6 +759,11 @@ body {
   line-height: normal;
 }
 
+@media screen and (min-width: 1200px) {
+  .program {
+    padding-top: 100px;
+  }
+}
 .speakers {
   padding-top: 100px;
 }
