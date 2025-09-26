@@ -1259,7 +1259,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: solid red;
 }
 .menu__item:hover {
   background-color: rgba(253, 86, 143, 0.86);
