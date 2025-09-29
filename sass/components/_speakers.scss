@@ -4,40 +4,69 @@
 
 .speakers-title {
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  @media screen and (min-width: 768px) {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 5px;
+  }
 }
 
 .speakers-list {
   display: flex;
-  gap: 32px;
   margin-top: 5px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  @media screen and (min-width: 1280px) {
+    gap: 32px;
+  }
 }
 
 .speakers-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 130px;
+  @media screen and (min-width:768px) {
+  max-width: 152px;
+  }
+  @media screen and (min-width:1280px) {
+    max-width: 288px;
+  }
 }
 
 .speakers-subtitle {
   color: $text-color;
   text-align: center;
   font-family: "Montserrat";
-  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 }
 
 .speakers-text {
   color: $text-color;
   text-align: center;
   font-family: "Montserrat";
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
+  font-size: 12px;
+  font-style: normal;
   line-height: normal;
-  width: 181px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
