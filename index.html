@@ -48,7 +48,7 @@
         </ul>
         <a href="#contact" class="header__button "> Contact</a>
       </nav>
-      <button class="header__burger">
+      <button class="header__burger" data-menu-open>
         <svg class="header__svg">
           <use href="./images/icons.svg#icon-menu"></use>
         </svg>
@@ -669,13 +669,13 @@
   </div> -->
 
 
-  <div class="menu">
+  <div class="menu is-hidden" data-menu>
     <div class="menu__box">
     <svg class="menu__logo">
       <use href="./images/icons.svg#icon-logo"></use>
     </svg>
 
-    <button class="menu__button" >
+    <button class="menu__button" data-menu-close>
       <svg class="menu__close">
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
@@ -702,11 +702,12 @@
       </ul>
     </button>
   </div>
-    <!-- <script src="./modal.js"></script>
+    <script src="./js/modal.js" type="module"></script>
+      <script src="./js/menu.js" type="module"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script> -->
+  </script>
 </body>
 
 </html>
