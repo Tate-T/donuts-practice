@@ -48,6 +48,8 @@
 .price-list {
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .price-item {
@@ -65,6 +67,12 @@
   border-radius: 25px;
   padding-right: 6px;
   transition: box-shadow 1000ms ease-in-out;
+  width: 280px;
+
+
+  // @media screen and () {
+    
+  // }
 }
 
 .price-item:hover {
@@ -85,7 +93,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 339px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .price-box {
