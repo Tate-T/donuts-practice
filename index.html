@@ -230,14 +230,26 @@
             <h3 class="program__subtitle">Number of guests</h3>
             <p class="program__info">1 to 20</p>
           </div>
-          <img src="./images/program2.webp" alt="Number of guests" class="program__img" />
+          <picture>
+            <source srcset="./images/desktop/program-host@desktop-1x.webp 1x, ./images/desktop/program-host@desktop-2x.webp 2x" media="(min-width: 1280px)">
+            <source srcset="./images/tablet/program-host@tablet-1x.webp 1x, ./images/tablet/program-host@tablet-2x.webp 2x" media="(min-width: 736px)">
+            <source srcset="./images/mobile/program-host@mobile-1x.webp 1x, ./images/mobile/program-host@mobile-2x.webp 2x" media="(max-width: 735px)">
+            <img src="./images/program2.webp" alt="Number of guests" class="program__img" />
+          </picture>
+          
         </li>
         <li class="program__event">
           <div class="program__overlay">
             <h3 class="program__subtitle">Type of the event</h3>
             <p class="program__info">18:30 (2.5 hours)</p>
           </div>
-          <img src="./images/program3.webp" alt="Type of the event" class="program__img" />
+          <picture>
+          <source srcset="./images/desktop/program-time@desktop-1x.webp 1x, ./images/desktop/program-time@desktop-2x.webp 2x"  media="(min-width: 1280px)" >
+            <source srcset="./images/tablet/program-time@tablet-1x.webp 1x, ./images/tablet/program-time@tablet-2x.webp 2x"  media="(min-width: 736px)">
+            <source srcset="./images/mobile/program-time@mobile-1x.webp 1x, ./images/mobile/program-time@mobile-2x.webp 2x" media="(max-width: 735px)">
+            <img src="./images/program3.webp" alt="Type of the event" class="program__img" />
+          </picture>
+          
         </li>
         <li class="program__event">
           <div class="program__overlay">
