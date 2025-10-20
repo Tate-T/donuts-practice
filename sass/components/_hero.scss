@@ -1,18 +1,35 @@
 .hero {
   padding-top: 86px;
   padding-bottom: 8px;
-  background-image: url("../images/backgroundhero.webp");
+  background-image: url("../../images/mobile/hero-bg@mobile-1x.webp");
   background-repeat: no-repeat;
   background-position: center;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("../../images/mobile/hero-bg@mobile-2x.webp");
+  }
 
   @media screen and (min-width: 768px) {
     padding-top: 98px;
     padding-bottom: 43px;
+    background-image: url("../../images/tablet/hero-bg@tablet-1x.webp");
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url("../../images/tablet/hero-bg@tablet-2x.webp");
+    }
   }
 
   @media screen and (min-width: 1280px) {
     padding-top: 171px;
     padding-bottom: 90px;
+    background-image: url("../../images/desktop/hero-bg@desktop-1x.webp");
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url("../../images/desktop/hero-bg@desktop-2x.webp");
+    }
   }
 
   &__container {
